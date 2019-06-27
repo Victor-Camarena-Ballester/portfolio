@@ -1,0 +1,73 @@
+.main {
+  max-width: 380px;
+  background-image: linear-gradient(rgb(141, 139, 139), rgb(54, 54, 53));
+  padding: 20px;
+  color: rgb(221, 215, 215);
+  font-size: 18px;
+}
+.myname {
+  font-size: 18px;
+}
+.main .header {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+.header .logo-wrapper {
+  width: 40%;
+}
+.header .logo-wrapper img {
+  max-width: 100%;
+}
+.header .nav-wrapper {
+  width: 60%;
+}
+
+.header .nav-wrapper nav {
+  text-align: right;
+  margin-bottom: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.content .left-content {
+  width: 50%;
+
+  padding: 5px;
+}
+.content .right-content {
+  width: 50%;
+  padding: 5px;
+  border-left: 5px solid white;
+}
+
+.content .right-content .hello {
+  text-align: center;
+}
+.content .right-content .hello h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content .right-content .habilities {
+  margin-top: 50px;
+}
+.content .right-content .habilities li {
+  margin-top: 10px;
+}
+.content .right-content .habilities .hability-block h3 {
+  font-weight: bold;
+  color: rgb(48, 135, 211);
+}
+
+.content .left-content .code {
+  color: rgb(179, 27, 27);
+  font-family: "Bungee Outline";
+  font-size: 25px;
+  font-weight: bold;
+}
