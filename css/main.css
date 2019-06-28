@@ -6,7 +6,7 @@
   font-size: 18px;
 }
 .myname {
-  font-size: 18px;
+  font-size: 22px;
 }
 .main .header {
   display: flex;
@@ -28,6 +28,11 @@
   text-align: right;
   margin-bottom: 40px;
 }
+.header .nav-wrapper nav a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 16px;
+}
 .content {
   display: flex;
   flex-direction: row;
@@ -36,12 +41,12 @@
   margin-top: 50px;
 }
 .content .left-content {
-  width: 50%;
+  width: 44%;
 
   padding: 5px;
 }
 .content .right-content {
-  width: 50%;
+  width: 56%;
   padding: 5px;
   border-left: 5px solid white;
 }
@@ -55,7 +60,7 @@
 }
 
 .content .right-content .habilities {
-  margin-top: 50px;
+  margin-top: 250px;
 }
 .content .right-content .habilities li {
   margin-top: 10px;
@@ -70,4 +75,10 @@
   font-family: "Bungee Outline";
   font-size: 25px;
   font-weight: bold;
+}
+.plus-image-wrapper {
+  text-align: center;
+}
+.plus-image-wrapper img {
+  width: 80px;
 }
